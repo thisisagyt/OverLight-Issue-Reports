@@ -1,0 +1,48 @@
+name: OverLight Bug Report
+description: Report a bug in the OverLight shaderpack
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve OverLight!
+  - type: input
+    id: version
+    attributes:
+      label: OverLight version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft version
+      placeholder: e.g. 1.21.1
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Shader loader
+      options:
+        - Iris
+        - OptiFine
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the bug and how to reproduce it.
+      placeholder: Steps to reproduce and expected versus actual result
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Add links or details that help explain the issue.
+    validations:
+      required: false
