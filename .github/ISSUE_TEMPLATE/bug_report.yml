@@ -11,14 +11,14 @@ body:
     id: version
     attributes:
       label: OverLight version
-      placeholder: e.g. 1.0.0
+      placeholder: e.g. 2X.XXa/b/c/d
     validations:
       required: true
   - type: input
     id: minecraft
     attributes:
       label: Minecraft version
-      placeholder: e.g. 1.21.1
+      placeholder: e.g. 26.2
     validations:
       required: true
   - type: dropdown
